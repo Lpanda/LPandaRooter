@@ -15,6 +15,7 @@
 		0D6D8605206A311C00AA22E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6D8604206A311C00AA22E8 /* main.m */; };
 		0D6D860F206A311D00AA22E8 /* LPandaRooterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6D860E206A311D00AA22E8 /* LPandaRooterTests.m */; };
 		0D6D861A206A311D00AA22E8 /* LPandaRooterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6D8619206A311D00AA22E8 /* LPandaRooterUITests.m */; };
+		0D6D8629206A33FC00AA22E8 /* ModulePlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D6D8628206A33FC00AA22E8 /* ModulePlist.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0D6D8615206A311D00AA22E8 /* LPandaRooterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPandaRooterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D6D8619206A311D00AA22E8 /* LPandaRooterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPandaRooterUITests.m; sourceTree = "<group>"; };
 		0D6D861B206A311D00AA22E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D6D8628206A33FC00AA22E8 /* ModulePlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ModulePlist.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				0D6D8600206A311C00AA22E8 /* LaunchScreen.storyboard */,
 				0D6D8603206A311C00AA22E8 /* Info.plist */,
 				0D6D8604206A311C00AA22E8 /* main.m */,
+				0D6D8627206A33BF00AA22E8 /* ModulePlist */,
 			);
 			path = LPandaRooter;
 			sourceTree = "<group>";
@@ -130,6 +133,14 @@
 				0D6D861B206A311D00AA22E8 /* Info.plist */,
 			);
 			path = LPandaRooterUITests;
+			sourceTree = "<group>";
+		};
+		0D6D8627206A33BF00AA22E8 /* ModulePlist */ = {
+			isa = PBXGroup;
+			children = (
+				0D6D8628206A33FC00AA22E8 /* ModulePlist.plist */,
+			);
+			path = ModulePlist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D6D8602206A311C00AA22E8 /* LaunchScreen.storyboard in Resources */,
+				0D6D8629206A33FC00AA22E8 /* ModulePlist.plist in Resources */,
 				0D6D85FF206A311C00AA22E8 /* Assets.xcassets in Resources */,
 				0D6D85FD206A311C00AA22E8 /* Main.storyboard in Resources */,
 			);
